@@ -48,6 +48,8 @@ int main() {
     std::cout << "File sent successfully.\n";
 
     close(client_socket);
+
     close(server_fd);
+    
     return 0;
 }
